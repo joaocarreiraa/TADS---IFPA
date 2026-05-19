@@ -12,14 +12,6 @@ O objetivo deste espaço é centralizar todos os exercícios, desafios e projeto
 *   **Ambiente de Desenvolvimento (IDE):** Online C
 ---
 
-## 📁 Estrutura do Repositorio
-
-O repositório está organizado de forma a facilitar a navegação pelas semanas de aula ou tópicos estudados:
-
-*   `🔬 Exercicios-Fixacao/`: Pequenos problemas resolvidos para fixar a lógica.
-*   `📝 Trabalhos/`: Projetos e atividades avaliativas da disciplina.
-*   `💡 Desafios/`: Códigos extras ou desafios propostos pelo professor.
-
 ---
 
 ## 🎯 Principais Conceitos Praticados
