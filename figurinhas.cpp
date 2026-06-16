@@ -7,7 +7,7 @@ int main() {
     setlocale(LC_ALL, "en_US.UTF-8");
 
     // Menu de opções (corrigido o \3[3] para [3])
-    cout << "Bem vindo ao\nCRIADOR DE FIGURINHAS\nselecione qual voce quer\n[1] ursinho besta\n[2] Jesus Cristo\n[3] Hello Kitty\n[4] Hello Kitty com um Heart\n[5]Kuromi e Mymelody\nDigite: ";
+    cout << "Bem vindo ao\nCRIADOR DE FIGURINHAS\nselecione qual voce quer\n[1] ursinho besta\n[2] Jesus Cristo\n[3] Hello Kitty\n[4] Hello Kitty com um Heart\n[5]Kuromi e Mymelody\n[6] Virginia Morre\nDigite: ";
     cin >> figurinha;
     
     switch (figurinha) {
@@ -167,6 +167,52 @@ int main() {
 ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⠈⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠈⠁⠁⠁⠁⠉⠁⠈⠉⠉⠉⠒⠒⠈⠈⠉⠐⠊⠉⠉⠉⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ 
                 )"<<endl;
                 break;
+Case 6:
+cout << R"(
+G       !B       !B.      !B:!YB@@@@@@@@@@@@@@@@@@@@@@@@@@@@@#G@@&GJ~. .#^      .#~       
+G       !B       !B      ^5@&@@@#5Y@@@@B@@@@@@@@@@@@@@@@@@@@@&B@@@@@@#5?#^      .#^       
+G       !B       ~B   :?B@@@@@@@#BGBPY! ^5&@@@#B&@@@@@@@@@@@@@@@@@@@@@@@@G7.     #^       
+B!!!!!!~J#!!!~!!~J#!~Y&@#P&@&PJ7~:.       :J#@@B5YP#@@@@@@@@@@@@@@@@@@@@@@@&Y!~~!#?~!!!!!!
+B!!!!!!~J#!!~#Y~~J#?&@#^.5@G:               .?#@PPPJ7!!!!?#@@@@@5P@@@@GJ@@Y#@G&Y!#?~!!!!!!
+P       !B   G!  ~BG@@G 7@#.                   7J:^JJ^    .7B@@@@Y!P@@@5!B#755~J?#^       
+G       !B   G!  ~&@@@G.#@!                   .:^^.          ~7!!?7^~5@@B~5@?~. :7:       
+G^^^^^^:?B^^:B?::7@@@@GY@P             .^!?Y55YJJJ??77^  :7~.     ~PP77B@&!?P~..  : .^^^^^
+B??????75#??????7Y@@@@@@@GPP5YJ7.      7PY?~::...::....   :!JJ7:    ^?7!?#@##&&5  P?:77???
+P       !B       ~@@@@@@&??JYYJJP?        .!JJ#@@@B&P!       :!PG?^      .P@@@@&^.G@Y.    
+G       !B       ~@@@@@@@@@GJ#BPY@~       ~?!^7???!~.          ^@@@BY!.    !?77?!7#@@&P   
+G...... 7B... .. !@@@@B?@J:~:.. ~G.                             5@@@@@&P7~^^^^^^^~#@@@@? .
+#JJJJJJ?5#JJJG5JJ5##@@P!@^     ~P:                               J&@@@@@@@#!^P@@@@@@@@@@YJ
+G       !B   G7  !B^B@G~@Y    ~#^    ..                           G@@@@@@@@Y :#@@@@@@@@@5 
+G       !B   G7  !B  ?5.!&G.  .YPJ7:.^~.                          G@@@@@@&P@? :G@@@@#&@@@~
+G       !B   G!  ~B    JBJ##^    ::                              .&P5@@@@@!7&~  J@@@7?@@@5
+#JJJJJJ?5#J??#5??5#??J?G@@B&&7 ^PBGPPBBGPY?!~^.                .^5@#^#@@@#G:?#~::?@@#~&@@#
+G.......7B :!#BGGB&7^  YPB@@@@5^P@Y777!!!!^:::             :~7J5&@@@P^G@@?~GG!~7!7&@@^B@@&
+G       !BJ#@@@@@@@@&5.JY^@@@@@#!~7????7!^            .^!?J?7~::&@@@@G^~55  7J    #@@!B@@@
+G       ~@@@@@@@@@@@@@B5Y ~B@@@@@5.             .:~7???!~:     .&@@@@@&Y:       ^5&@@7B@@@
+B7777777Y@@@@@@@@@@@@@@@G77?&@&@@@&Y!^^:::^^~?YPYJ7^:          .&@@@@@@@@P7:.^^:J@@@@YB@@@
+G^^^^^^:?@@@@@@@@@@@@@@B5:^^#!:~JG&@@G????J#@@@P               .&@@@@@@@@@@&#@@@@@@@@@@@@B
+G       ~&B@@@@@@@@@@#!JY   #^    ^B@7     5@@@5               .&@@@&B@@@@@@@@@@@@@@@@@@@J
+G       !G !5&&&&&&P?: Y5.:^#7^~!5#@&:::   !@@@5           .J7!.????55B&B#@@@@@###@@&@@##Y
+B~~~~~~~J#~~~B7.^J&5G##&@&&@@@@@@@@P: 5B!77Y@@@5 .        .^P7?JYYYJB@@#?:Y@@@P. ~B7#&~ ..
+B!!!!!!!Y#!!!B?J#@@@@@@@@@@@@@@@@@@5JY#B~P@#PPPY??JYPY?JJ5PGGBB###BBBB#@@B7?&B.  .^B@~    
+G       !B   B&5!J#!5@@@@@@@@@@@@@@@@@@@@@@Y  :~?Y55Y7G5...           .J@@@GGB7??P5&@.    
+G       !B !G5^  ~B .^^^^:75YYYYYYP&5YYYYG@B5G5J7^.   YY                #P&@@#!  #^.P5~   
+G       ~#55^    !B               ^B     ^!^JG        YY               .#::P@@@G~#^  ^J57.
+#JJJJJ?YB#GJJJJJJ5&JJJJJJJJJJJJJJJ5&JJJJJ???P#JJJJJJJ?BG?JJJJJJJJJJJJJJJ&Y?J#@@@@@GPP55G@&
+G... .JB7  ..... !B..........:::::7#^^^:^^^:JG:^^^:^^:55::::::.........:#~  5@@@@@@@@@@@@@
+G   !GJ.         !B         .PGG!JB!YYY5YY5PY5P5YYP7?P5YP?7GGP.        .#^  Y@@@@@@@@@@@@@
+G  PB:           ~B         .GBB!!Y^Y:57~!~?^~J~J!?!!J^!7J?BBP         .#^  Y@@@@@@#??YG#Y
+B^~JB?~^^~~~~~~~~J#~~~~~^~~^~G##BGPBBP#GJJYGGG#GBGPG5BGGBBB##B!~~~~~~~~!&7~^P@@@@@@Y^?#5!^
+?#@@?^P?:GPPP#YGP5BP5P@@J?B!P?G5BPG5G7G5PG5YB55&@5^?5GP5B5PY#55BB55#PPG&P5P@@G55#5PPB55#@&
+ B@@JY!Y7P!57P!&JY&!??&@@7~GG7JJ&~J:5!Y7G!YJJ?~B@5!#&?J?5!G75?7JJ77P7YYG!?!@&7?~5!5?P7!G@#
+ ?55Y5Y5#@@&BGB@GB#@&@@@@@&@@@@@@BPP&@@@@@@@@@&G@@@@@@#B@@@@@@@@@@@@#B@@&G#B@@@@@@B5G&GY5J
+        G@@&J?!G~?7@@PJ7G757G?5?G?JB@&J?JPJYJP??Y5?J&@Y^B75GJ?PYYJPY77B?5:Y~BJ?Y@@5  ~5Y^ 
+        G@@&?J5BYYJ@@YJ?P?&?GJ5JBJ?P@#?YJJ~5YPJY5PJ?#@#?B?&GJJ5J?~YYJYBJ5?GJG?JJ@@5    ~5P
+       Y&@@@@@@@&@@@@@@&@#P@@@@@@@@@&@@@&Y#@@@@@@@@@@@@@&@@@@PG&GB@@&@&@&GGBG&@@@@#Y^   ^@
+       #@@P!?YJ??YJY?5757Y~5J?P!?7P!5!57Y:57Y7@@?7J5?G7P?!5@#.5Y?!G!Y~Y757??!P??!@@@7 :J5!
+       B@@BYYG5GG5&JG&Y55G5@J5@YYPBY&YBYPYBY5P@@PYYBJ55PYYP@@Y&55JGY#Y&YG5PPYGY5J&@@J?P!  
+)"<< endl;
+break;
 
         default:
             // Ajustado aqui no final o << antes do endl!
