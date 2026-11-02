@@ -9,7 +9,7 @@ O objetivo deste espaço é centralizar todos os exercícios, desafios e projeto
 ## 🚀 Tecnologias e Ferramentas Utilizadas
 
 *   **Linguagem principal:** C++
-*   **Ambiente de Desenvolvimento (IDE):** Online C
+*   **Ambiente de Desenvolvimento (IDE):** VS Code
 ---
 
 ---
